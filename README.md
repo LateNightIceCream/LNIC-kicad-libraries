@@ -1,4 +1,4 @@
-# LNIC-kicad-library
+# LNIC-kicad-libraries
 kicad libraries!
 
 ## Conventions
