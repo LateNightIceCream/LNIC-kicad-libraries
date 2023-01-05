@@ -38,8 +38,16 @@ def add_symbol_list(mdFile):
 
     for lib in symbols:
         title = lib.stem
-        mdFile.new_header(level=2, title=title)
-        mdFile.new_list(symbols[lib])
+        #mdFile.new_header(level=2, title=title)
+        #mdFile.new_paragraph(title, bold_italics_code='b')
+        table_rows = [title]
+        for sym in symbols[lib]:
+            table_rows.append(sym)
+
+        nrows = len(table_rows)
+        print(nrows)
+        if nrows > 0:
+            mdFile.new_table(columns = 1, rows = nrows, text = table_rows, text_align='left')
 
 
 if __name__ == '__main__':
