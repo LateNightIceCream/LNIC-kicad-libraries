@@ -9,6 +9,7 @@ import sys
 import subprocess
 import logging
 import pathlib
+from fnmatch import fnmatch
 
 logger = None
 
@@ -18,6 +19,7 @@ FOOTPRINT_DIRECTORY = '../src/footprints'
 KLC_CHECK_SYMBOL_SCRIPT = 'kicad-library-utils/klc-check/check_symbol.py'
 KLC_CHECK_FOOTPRINT_SCRIPT = 'kicad-library-utils/klc-check/check_footprint.py'
 KICAD_SYM_FILE_ENDING = '.kicad_sym'
+KICAD_FOOTPRINT_FILE_ENDING = '.kicad_mod'
 
 # just for pretty logging
 class CustomFormatter(logging.Formatter):
@@ -56,7 +58,14 @@ def check_symbols(sym_dir, args):
 
 
 def check_footprints(ftp_dir, args):
-    pass
+    root = FOOTPRINT_DIRECTORY
+    pattern = '*' + KICAD_FOOTPRINT_FILE_ENDING
+
+    for path, subdirs, files in os.walk(root):
+        for name in files:
+            if fnmatch(name, pattern):
+                fdir = os.path.join(path, name)
+                subprocess.run([KLC_CHECK_FOOTPRINT_SCRIPT, fdir, ' '.join(args)])
 
 
 if __name__ == '__main__':
@@ -79,5 +88,11 @@ if __name__ == '__main__':
 
     args = sys.argv[1:]
 
+    print('===================')
+    print('CHECKING SYMBOLS')
+    print('===================')
     check_symbols(SYMBOL_DIRECTORY, args)
+    print('===================')
+    print('CHECKING FOOTPRINTS')
+    print('===================')
     check_footprints(FOOTPRINT_DIRECTORY, args)
