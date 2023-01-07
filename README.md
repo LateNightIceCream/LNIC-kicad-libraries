@@ -9,7 +9,7 @@ For conventions used see the official [KiCad Library Conventions](https://klc.ki
 ### 3D Model Path
 Kicad currently (6.0.10) does not support relative 3D-Paths and the "3D-Search-Path" seems to be undocumented.
 
-To have the footprints include the 3D models from this library you have to go to add an environment variable called `KICAD_LIB_LNIC_DIR` with the absolute path to the library on your system.
+To have the footprints include the 3D models from this library you have to add an environment variable called `KICAD_LIB_LNIC_DIR` with the absolute path to the library on your system.
 
 1. Preferences -> Configure Paths
 2. Click the add (+) button in the Environment Variable section
