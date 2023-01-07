@@ -5,6 +5,10 @@ kicad libraries!
 
 For conventions used see the official [KiCad Library Conventions](https://klc.kicad.org/).
 
+### Exceptions
+#### 3D Models
+- F9.3 violation: no `${KICAD6_3DMODEL_DIR}/` prefix for the model path, as this is not supposed to be committed to the official kicad libs
+
 ## Installation
 ### 3D Model Path
 Kicad currently (6.0.10) does not support relative 3D-Paths and the "3D-Search-Path" seems to be undocumented.
