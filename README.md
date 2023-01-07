@@ -1,6 +1,9 @@
 # LNIC-kicad-libraries
 kicad libraries!
 
+## Components
+For a list of components see [here](https://github.com/LateNightIceCream/LNIC-kicad-libraries/blob/main/component_list.md).
+
 ## Conventions
 
 For conventions used see the official [KiCad Library Conventions](https://klc.kicad.org/).
