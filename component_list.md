@@ -4,32 +4,41 @@
 
 # Component List
 
-|LNIC_symbols_power|
+|LNIC_Amplifier_Audio|
 | :--- |
-|+17V|
-|+5V5|
+|MAX13331|
+|TPA3004D2|
+|TSDP11XX|
 
 |LNIC_MCU|
 | :--- |
+|ESP32-WROVER|
 
-|LNIC_regulator_linear|
+|LNIC_Connector_Optical|
 | :--- |
+|TORX1350A(F)|
 
-|LNIC_codec_audio|
-| :--- |
-|CS42528|
-
-|LNIC_regulator_switching|
+|LNIC_Regulator_Switching|
 | :--- |
 |MAX660MX|
 |RT7272A|
 
-|LNIC_connector_optical|
+|LNIC_Symbols_Power|
 | :--- |
+|+17V|
+|+5V5|
+|OP_VCC+|
+|OP_VCC-|
+|VIN|
 
-|LNIC_amplifier_operational|
+|LNIC_Codec_Audio|
 | :--- |
+|CS42528|
 
-|LNIC_amplifier_audio|
+|LNIC_Regulator_Linear|
 | :--- |
-|TPA3004D2|
+|LDL212DR|
+
+|LNIC_Amplifier_Operational|
+| :--- |
+|OPA1632DGNR|

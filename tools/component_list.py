@@ -45,7 +45,6 @@ def add_symbol_list(mdFile):
             table_rows.append(sym)
 
         nrows = len(table_rows)
-        print(nrows)
         if nrows > 0:
             mdFile.new_table(columns = 1, rows = nrows, text = table_rows, text_align='left')
 
@@ -55,7 +54,10 @@ if __name__ == '__main__':
     try:
         mdFile = MdUtils(file_name=OUTFILE)
         mdFile.new_header(level=1, title='Component List')
+        mdFile.new_header(level=2, title='Symbols')
         add_symbol_list(mdFile)
+        mdFile.new_header(level=2, title='Footprints')
+        # TODO: list footprints
         mdFile.create_md_file()
 
     except Exception as e:
