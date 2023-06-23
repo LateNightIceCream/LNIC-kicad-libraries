@@ -93,7 +93,7 @@
   (pad "1" smd rect (at -5.5 6.15) (size 2 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c621ff44-487c-41af-a56d-5eb6074a53a9))
   (pad "2" smd rect (at 5.5 6.15) (size 2 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2ebe0e8f-3e3e-4864-bd2f-4928226670cc))
   (pad "3" smd rect (at 5.5 0) (size 2 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1ca21075-a416-4630-af61-2bdaba00532c))
-  (model "${KICAD_LIB_LNIC_DIR}/packages3d/LNIC_Connector_BarrelJack/DCJ200-05-A.step"
+  (model "${KICAD_LIB_LNIC_DIR}/packages3d/LNIC_Connector_BarrelJack.3dshapes/DCJ200-05-A.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

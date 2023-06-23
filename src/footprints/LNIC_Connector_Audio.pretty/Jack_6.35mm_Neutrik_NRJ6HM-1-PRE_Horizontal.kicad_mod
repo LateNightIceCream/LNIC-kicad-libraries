@@ -59,7 +59,7 @@
   (pad "S" thru_hole circle (at 12.7 11.43) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 2d340cb2-03a7-4a62-9c46-bbed3963e48c))
   (pad "T" thru_hole circle (at 0 0) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 00491875-578e-4af6-8f68-726d58335f2a))
   (pad "TN" thru_hole circle (at 0 11.43) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp a700f748-5342-4c89-8562-7ac3073ec7dc))
-  (model "${KICAD_LIB_LNIC_DIR}/packages3d/LNIC_Connector_Audio/Jack_6.35mm_Neutrik_NRJ6HM-1-PRE_Horizontal.step"
+  (model "${KICAD_LIB_LNIC_DIR}/packages3d/LNIC_Connector_Audio.3dshapes/Jack_6.35mm_Neutrik_NRJ6HM-1-PRE_Horizontal.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
