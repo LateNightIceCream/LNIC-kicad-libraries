@@ -1,6 +1,6 @@
 (footprint "Potentiometer_TTElectronics_P160KN-XQX15_Horizontal" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "Potentiometer, 15mm shaft length, shaft with teeth, https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/P160.pdf")
+  (descr "Potentiometer, 15mm shaft length, knurled, https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/P160.pdf")
   (tags "Potentiometer horizontal P160KN")
   (attr smd)
   (fp_text reference "REF**" (at -7 -11 unlocked) (layer "F.SilkS")
