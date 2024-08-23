@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LNIC_Breakout:Pololu_VL53L5+L7CX_MountHeightOffset12mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -245,7 +245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LNIC_Breakout:Pololu_VL53L5+L7CX_MountHeightOffset12mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -468,7 +468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LNIC_Breakout:Pololu_VL53L8CX_MountHeightOffset12mm"
 			(at 0 0 0)
 			(effects
 				(font

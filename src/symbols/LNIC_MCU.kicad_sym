@@ -803,7 +803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LNIC_Breakout:WEMOS_S2_mini_MountHeightOffset12mm"
 			(at -0.254 26.416 0)
 			(effects
 				(font
