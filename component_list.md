@@ -36,8 +36,12 @@
 |Potentiometer_Bourns_PTD901-XX15K-X_Horizontal|yes|
 |Potentiometer_TTElectronics_P160KN-XQX15_Horizontal|yes|
 |DCJ200-05-A|yes|
+|Pololu_VL53L8CX_MountHeightOffset2.5mm|yes|
+|Pololu_VL53L8CX_MountHeightOffset12mm|yes|
 |WEMOS_S2_mini_MountHeightOffset12mm|yes|
 |WEMOS_S2_mini_MountHeightOffset2.5mm|yes|
+|Pololu_VL53L5+L7CX_MountHeightOffset2.5mm|yes|
+|Pololu_VL53L5+L7CX_MountHeightOffset12mm|yes|
 |ESP32_WROVER_no_thermal_via|yes|
 |VSSOP-8_3.0x3.0mm_P0.65mm_EP1.57x1.89mm|yes|
 |L_Abracon_ASPI-6045T|yes|
