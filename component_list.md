@@ -10,7 +10,7 @@
 | :--- | :--- |
 |TORX1350A(F)|LNIC_Connector_Optical:TOSLINK_TORX1350A(F)_Horizontal|
 |ESP32-WROVER|LNIC_MCU:ESP32_WROVER_no_thermal_via|
-|WEMOS_S2_mini|–|
+|WEMOS_S2_mini|LNIC_Breakout:WEMOS_S2_mini_MountHeightOffset12mm|
 |MAX660MX|Package_SO:SOIC-8_3.9x4.9mm_P1.27mm|
 |RT7272A|Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias|
 |OPA1632DGNR|LNIC_Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm_EP1.57x1.89mm|
@@ -25,9 +25,9 @@
 |TSDP11XX|Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm|
 |LDL212DR|Package_SO:SO-8_3.9x4.9mm_P1.27mm|
 |Layer_Marking_4_Layers|LNIC_Symbols_Extra:Layer_Marking_4_Layers|
-|Pololu_VL53L5CX|–|
-|Pololu_VL53L7CX|–|
-|Pololu_VL53L8CX|–|
+|Pololu_VL53L5CX|LNIC_Breakout:Pololu_VL53L5+L7CX_MountHeightOffset12mm|
+|Pololu_VL53L7CX|LNIC_Breakout:Pololu_VL53L5+L7CX_MountHeightOffset12mm|
+|Pololu_VL53L8CX|LNIC_Breakout:Pololu_VL53L8CX_MountHeightOffset12mm|
 
 ## Footprints
 
