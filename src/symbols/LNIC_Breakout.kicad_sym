@@ -58,7 +58,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Pololu_VL53(L5/L7)CX*"
+		(property "ki_fp_filters" "Pololu_VL53L5+L7CX*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -281,7 +281,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Pololu_VL53(L5/L7)CX*"
+		(property "ki_fp_filters" "Pololu_VL53L5+L7CX*"
 			(at 0 0 0)
 			(effects
 				(font

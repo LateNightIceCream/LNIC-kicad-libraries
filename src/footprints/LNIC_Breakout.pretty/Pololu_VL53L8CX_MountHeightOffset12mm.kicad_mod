@@ -1,11 +1,11 @@
-(footprint "Pololu_VL53L8CX_MountHeightOffset11.43mm"
+(footprint "Pololu_VL53L8CX_MountHeightOffset12mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "VL53L8CX carrier board with 450mil/11.43mm vertical offset for male pin header (2.54mm) and female pin header (8.89mm)")
+	(descr "VL53L8CX carrier board with 12mm vertical offset for pin socket + header")
 	(property "Reference" "REF**"
-		(at 0 -12.446 0)
+		(at 5.08 -2.286 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "45943e63-4e54-4fb0-8f26-5fb2f1b7df14")
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "Pololu_VL53L8CX_MountHeightOffset11.43mm"
-		(at 0 13.208 0)
+	(property "Value" "Pololu_VL53L8CX_MountHeightOffset12mm"
+		(at 5.08 23.368 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -30,7 +30,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 1.27 1.27 0)
+		(at 6.35 11.43 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "2e750a31-f2c3-43ef-95a5-3e436c161255")
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 1.27 1.27 0)
+		(at 6.35 11.43 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "f07c2c9e-2c66-4cc4-963c-94467f307607")
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 1.27 1.27 0)
+		(at 6.35 11.43 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "f66d1c90-32d4-4c80-8add-c33b11005cb6")
@@ -67,8 +67,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -6.604 -11.684)
-		(end 6.604 -11.684)
+		(start -1.524 -1.524)
+		(end 11.684 -1.524)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -77,8 +77,8 @@
 		(uuid "34c7353a-0d66-464d-9a5f-e0139cd7c9b4")
 	)
 	(fp_line
-		(start -6.604 11.684)
-		(end -6.604 -11.684)
+		(start -1.524 21.844)
+		(end -1.524 -1.524)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -87,8 +87,8 @@
 		(uuid "6a8d8099-4fe0-4712-bdb0-21f2bfafa0a8")
 	)
 	(fp_line
-		(start 6.604 -11.684)
-		(end 6.604 11.684)
+		(start 11.684 -1.524)
+		(end 11.684 21.844)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -97,8 +97,8 @@
 		(uuid "8d460e81-b33b-49e9-a50c-c5bb5187f620")
 	)
 	(fp_line
-		(start 6.604 11.684)
-		(end -6.604 11.684)
+		(start 11.684 21.844)
+		(end -1.524 21.844)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -107,8 +107,8 @@
 		(uuid "b7808f9c-dc10-4ef3-83e6-7af0f937e5f6")
 	)
 	(fp_line
-		(start -6.858 -11.938)
-		(end 6.858 -11.938)
+		(start -1.778 -1.778)
+		(end 11.938 -1.778)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -117,8 +117,8 @@
 		(uuid "e5df414e-d2c7-4fdb-9669-3d5a9905fc73")
 	)
 	(fp_line
-		(start -6.858 11.938)
-		(end -6.858 -11.938)
+		(start -1.778 22.098)
+		(end -1.778 -1.778)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -127,8 +127,8 @@
 		(uuid "51bf9083-74eb-4369-8368-3cd1ff256223")
 	)
 	(fp_line
-		(start 6.858 -11.938)
-		(end 6.858 11.938)
+		(start 11.938 -1.778)
+		(end 11.938 22.098)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -137,8 +137,8 @@
 		(uuid "4a3b68b0-dabf-4998-91e6-6d2cffed7e5c")
 	)
 	(fp_line
-		(start 6.858 11.938)
-		(end -6.858 11.938)
+		(start 11.938 22.098)
+		(end -1.778 22.098)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -147,8 +147,8 @@
 		(uuid "74f79aea-c323-4f29-b7d2-d7c2f3809cd4")
 	)
 	(fp_line
-		(start -6.35 -11.43)
-		(end -6.35 11.43)
+		(start -1.27 -1.27)
+		(end -1.27 21.59)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -157,8 +157,8 @@
 		(uuid "1d0c0ad4-01fe-4a1c-abfc-2e5e7b60a99b")
 	)
 	(fp_line
-		(start -6.35 11.43)
-		(end 6.35 11.43)
+		(start -1.27 21.59)
+		(end 11.43 21.59)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -167,8 +167,8 @@
 		(uuid "a0c24f9a-4cab-4cb6-b253-67f66e7ce7b8")
 	)
 	(fp_line
-		(start 6.35 -11.43)
-		(end -6.35 -11.43)
+		(start 11.43 -1.27)
+		(end -1.27 -1.27)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -177,8 +177,8 @@
 		(uuid "3d9ce74a-1076-4dbd-a454-eb040fca8a8c")
 	)
 	(fp_line
-		(start 6.35 11.43)
-		(end 6.35 -11.43)
+		(start 11.43 21.59)
+		(end 11.43 -1.27)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -187,7 +187,7 @@
 		(uuid "262d4bae-bc44-4b10-9737-8631d80f95cd")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 5.08 10.16 0)
 		(layer "F.Fab")
 		(uuid "ba643748-c2fc-41b3-b677-ac2a4c45203d")
 		(effects
@@ -198,7 +198,7 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at -5.08 -10.16)
+		(at 0 0)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -206,7 +206,7 @@
 		(uuid "45f96cad-a0d9-4fd3-8f3d-d9f333147091")
 	)
 	(pad "2" thru_hole oval
-		(at -5.08 -7.62)
+		(at 0 2.54)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -214,7 +214,7 @@
 		(uuid "6a877d6d-35f2-4e8e-b565-ac73d4e5fac2")
 	)
 	(pad "3" thru_hole oval
-		(at -5.08 -5.08)
+		(at 0 5.08)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -222,7 +222,7 @@
 		(uuid "c3797a80-05b0-4dc8-83a6-6144f93ef570")
 	)
 	(pad "4" thru_hole oval
-		(at -5.08 -2.54)
+		(at 0 7.62)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -230,7 +230,7 @@
 		(uuid "bb60e0f4-916b-444e-ae7c-77e17c7dd930")
 	)
 	(pad "5" thru_hole oval
-		(at -5.08 0)
+		(at 0 10.16)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -238,7 +238,7 @@
 		(uuid "f4a086ca-158b-4f6f-b751-172e9ab52ae1")
 	)
 	(pad "6" thru_hole oval
-		(at -5.08 2.54)
+		(at 0 12.7)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -246,7 +246,7 @@
 		(uuid "8ea43b11-bdef-4b7f-9c29-c6316a2b894a")
 	)
 	(pad "7" thru_hole oval
-		(at -5.08 5.08)
+		(at 0 15.24)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -254,7 +254,7 @@
 		(uuid "b4541a7d-245e-4d68-8ff3-96cba924ef95")
 	)
 	(pad "8" thru_hole oval
-		(at -5.095803 7.600767)
+		(at 0 17.78)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -262,7 +262,7 @@
 		(uuid "47baabdb-6336-478d-b43a-8a061a1b24f1")
 	)
 	(pad "9" thru_hole oval
-		(at -5.08 10.16)
+		(at 0 20.32)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -270,7 +270,7 @@
 		(uuid "f130277e-b53b-4480-a974-d4e76c8d46f6")
 	)
 	(pad "10" thru_hole oval
-		(at 5.08 -2.54)
+		(at 10.16 7.62)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -278,7 +278,7 @@
 		(uuid "48372139-2401-4f23-bb3f-16a977e9b7b4")
 	)
 	(pad "11" thru_hole oval
-		(at 5.08 0)
+		(at 10.16 10.16)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -286,7 +286,7 @@
 		(uuid "03e20a72-ef3e-43d7-bd4a-87ff2e0be0b6")
 	)
 	(pad "12" thru_hole oval
-		(at 5.08 2.54)
+		(at 10.16 12.7)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -294,11 +294,66 @@
 		(uuid "07a4783b-f5b7-4f30-b133-e94914499e79")
 	)
 	(pad "13" thru_hole oval
-		(at 5.08 5.08)
+		(at 10.16 15.24)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "83a42fd8-a341-4d21-8ad6-9be2aaec5efa")
+	)
+	(model "${KICAD_LIB_LNIC_DIR}/packages3d/LNIC_Breakout.3dshapes/Pololu_VL53L8CX.step"
+		(offset
+			(xyz -1.27 1.27 9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x09_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 10.16 -7.62 9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x09_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 10.16 -7.62 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
