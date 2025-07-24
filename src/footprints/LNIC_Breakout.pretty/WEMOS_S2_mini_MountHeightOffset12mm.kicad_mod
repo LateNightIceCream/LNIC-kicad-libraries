@@ -1,7 +1,7 @@
 (footprint "WEMOS_S2_mini_MountHeightOffset12mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "ESP32 board with 12mm vertical offset for pin socket + header")
 	(property "Reference" "REF**"
@@ -21,19 +21,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8ea9237c-b240-4609-b048-23d42443ad67")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "27134e66-026a-4ad6-b16d-1e41c8a4b428")
 		(effects
 			(font
 				(size 1 1)
@@ -548,37 +535,38 @@
 		(remove_unused_layers no)
 		(uuid "21d9bf25-ad86-40bd-ba62-cc5d98f90857")
 	)
+	(embedded_fonts no)
 	(model "${KICAD_LIB_LNIC_DIR}/packages3d/LNIC_Breakout.3dshapes/WEMOS_S2_mini_pcb.step"
 		(offset
-			(xyz 11.47 -9.3 9.5)
+			(xyz 11.47 -9.3 11.04)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x08_P2.54mm_Vertical.wrl"
 		(offset
-			(xyz 2.54 0 9.5)
+			(xyz 2.54 0 11.04)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 180 0)
+			(xyz -0 180 -0)
 		)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x08_P2.54mm_Vertical.wrl"
 		(offset
-			(xyz 22.94 0 9.5)
+			(xyz 22.94 0 11.04)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 180 0)
+			(xyz -0 180 -0)
 		)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x08_P2.54mm_Vertical.wrl"
